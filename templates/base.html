@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>Prom.ua — маркетплейс Украины</title>
+
+        <meta charset="utf-8">
+        <meta name="description" content="You Description"/>
+        <meta name="keywords" content="You Keywords"/>
+
+        <link rel="canonical" href="https://site_name.com/">
+
+    </head>
+
+    <body>
+
+        <!-- NAVBAR CONTAINER -->
+        {% include 'navbar.html' %}
+        <!-- / NAVBAR CONTAINER -->
+
+
+        {% block content %}
+        {% endblock content %}
+
+
+        <!-- FOOTER -->
+        {% include 'footer.html' %}
+        <!-- / FOOTER -->
+
+        <!-- All Scripts -->
+        {% include 'scripts.html' %}
+        <!-- / All Scripts -->
+
+    </body>
+</html>
