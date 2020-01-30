@@ -3,8 +3,8 @@
 
 **Step #1:**
 
-*  `git clone git@code.ua.energy:??????/??????.git` - SSH
-*  `git clone https://code.ua.energy/??????/??????.git` - HTTP
+*  `git clone git@github.com:stepanenko-ys/blank_django.git` - SSH
+*  `git clone https://github.com/stepanenko-ys/blank_django.git` - HTTP
 
 *  **  **
 
@@ -12,7 +12,7 @@
 
 **Now you need to go to the "develop" branch**
 
-*  `git checkout dev`
+*  `git checkout develop`
 
 *  **  **
 
@@ -32,6 +32,5 @@
 *  `python manage.py loaddata fixtures/*.json`
 *  `python manage.py runserver`
 
-*  **  **# shosho
-# blank_django
-# blank_django
+**Note: Fixture "users.json" create custom superuser with the name "admin" and the password "admin"**
+*  **  **
