@@ -1,5 +1,5 @@
 # Base from Django
-django==3.0.1
+django==3.0.14
 asgiref==3.2.3
 pip==19.3.1
 pytz==2019.3
