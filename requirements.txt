@@ -8,5 +8,5 @@ sqlparse==0.3.0
 wheel==0.33.6
 
 # Custom
-pillow==7.0.0
+pillow==8.3.2
 # psycopg2==2.7.7
