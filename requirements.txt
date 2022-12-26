@@ -5,7 +5,7 @@ pip==19.3.1
 pytz==2019.3
 setuptools==42.0.2
 sqlparse==0.3.0
-wheel==0.33.6
+wheel==0.38.1
 
 # Custom
 pillow==7.0.0
